@@ -1,0 +1,28 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.html]
+indent_style = space
+indent_size = 4
+
+[*.{html,css,js,php}]
+trim_trailing_whitespace = true
+
+[*.html]
+max_line_length = 80
+
+[*.{html,php}]
+preserve_inline_elements = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[docker-compose.yml]
+indent_size = 4
+
